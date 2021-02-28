@@ -45,7 +45,8 @@ public class Basics {
 		System.out.println("place_id is "+ js.getString("place_id"));
 		
 		
-
+// This is next request
+		
 		given().log().all().queryParam("key", "qaclick123").header("Content-Type","Application/json")
 		.body("{\r\n" + 
 				"\"place_id\":\""+ place_id +"\",\r\n" + 
