@@ -1,7 +1,8 @@
 ### RestAssured QuickView
 
 ```java
-RestAssured.baseURI = baseUrl;
+	 RestAssured.baseURI = baseUrl;
+
 	 given()..queryParam("key","value")
 	.header("Content-Type","Application/json")
 	.body("xxx").when().post({resourcePath})
